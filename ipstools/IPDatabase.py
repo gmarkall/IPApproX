@@ -73,6 +73,7 @@ class IPDatabase(object):
       1. resolving the IP hierarchy, including dependency conflicts
       2. downloading the necessary IP set
       3. generating scripts for a number of backends
+
     If `build_deps_tree` and `resolve_deps_conflicts` are set to True, the hierarchical IP flow will be started and the 
     user will be asked to resolve IP version conflicts manually in case different version of IPs are referenced throughout
     the dependency tree.
